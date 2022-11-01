@@ -1,0 +1,64 @@
+.slider-akcia {
+    max-width: 100%;
+}
+
+.slider-akcia-box {
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    border-radius: 32px;
+    background: #F8F9FA;
+    box-shadow: 0 0 30px 5px #DCE5E2;
+}
+
+.slider-akcia-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-akcia-info {
+    margin: auto 0;
+}
+
+.akcia-title {
+    font-family: 'CormorantGaramond', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #000;
+}
+
+.akcia-info {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000;
+}
+
+.akcia-btn {
+    margin-top: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .5s; 
+}
+
+.akcia-btn:hover {
+    background: #000;
+    color: #FFF;
+}
+
+.slider-akcia-item img {
+    padding: 20px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: #000;
+}

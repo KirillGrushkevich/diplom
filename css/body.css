@@ -1,0 +1,17 @@
+.otstup {
+    padding: 0 70px;
+    max-width: 100%;
+}
+
+.otstup-box {
+    padding: 20px 0;
+    height: auto;
+}
+
+.title-box {
+    font-family: 'CormorantGaramond', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
